@@ -1,8 +1,9 @@
+// soma valores
 function sum(a, b) {
     return a + b;
 }
 
-// Subtrai valores
+// subtrai valores
 function sub(a, b) {
     return a - b;
 }
