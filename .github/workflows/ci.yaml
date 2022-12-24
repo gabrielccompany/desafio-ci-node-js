@@ -16,7 +16,6 @@ jobs:
           node-version: 14
       - run: npm i
       - run: npm test
-
       - name: SonarCloud Scan 
       - uses: SonarSource/sonarcloud-github-action@master
         env:
