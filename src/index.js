@@ -2,6 +2,7 @@ function sum(a, b) {
     return a + b;
 }
 
+// Subtrai valores
 function sub(a, b) {
     return a - b;
 }
