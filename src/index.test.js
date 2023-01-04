@@ -19,3 +19,7 @@ test(`times 10 * 5 be equal 50`, () => {
 test(`div 10 / 5 be equal 2`, () => {
     expect(div(10, 5)).toBe(2);
 });
+
+test(`div 20 / 5 be equal 4`, () => {
+    expect(div(20, 5)).toBe(4);
+});
