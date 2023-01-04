@@ -8,6 +8,10 @@ test(`sub 10 - 5 be equal 5`, () => {
     expect(sub(10, 5)).toBe(5);
 });
 
+test(`sub 9 - 5 be equal 4`, () => {
+    expect(sub(9, 5)).toBe(4);
+});
+
 test(`sub 8 - 4 be equal 4`, () => {
     expect(sub(8, 4)).toBe(4);
 });
