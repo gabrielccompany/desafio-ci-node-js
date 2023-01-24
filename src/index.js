@@ -18,4 +18,8 @@ function div(a, b) {
     return a / b;
 }
 
-module.exports = { sum, sub, times, div };
+function div2(a) {
+    return a / 2;
+}
+
+module.exports = { sum, sub, times, div, div2 };
