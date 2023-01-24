@@ -1,4 +1,4 @@
-const { sum, sub, times, div } = require(`./index`);
+const { sum, sub, times, div, div2 } = require(`./index`);
 
 test(`add 10 + 5 be equal 15`, () => {
     expect(sum(10, 5)).toBe(15);
@@ -26,4 +26,8 @@ test(`div 10 / 5 be equal 2`, () => {
 
 test(`div 20 / 5 be equal 4`, () => {
     expect(div(20, 5)).toBe(4);
+});
+
+test(`div2 20 / 2 be equal 10`, () => {
+    expect(div2(20)).toBe(10);
 });
